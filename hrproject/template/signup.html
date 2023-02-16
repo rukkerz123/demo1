@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register</title>
+</head>
+<body>
+<h1 style="color:green;">Sign up</h1>
+<form action="signup"  method="POST">
+      {% csrf_token %}
+      <input  type="text" name="username" placeholder="Enter the User Name"><br>
+      <input  type="text" name="tenth_passed" placeholder="Enter the 10th pass year"><br>
+      <input  type="text" name="twelve_passed" placeholder="Enter the 12th pass year"><br>
+      <input  type="text" name="graduation_degree" placeholder="Degree or Diploma passed year"><br>
+      <input  type="email" name="email" placeholder="Enter your Email"><br>
+      <input  type="password" name="password" placeholder="Enter the password"><br>
+      <input  type="password" name="password1" placeholder="Confirm the password"><br>
+      <input  type="submit" style="background:skyblue">
+</form>
+{% for msg in messages %}
+<h3>{{msg}}</h3>
+{% endfor %}
+</body>
+</html>

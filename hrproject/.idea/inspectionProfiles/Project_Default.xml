@@ -1,0 +1,55 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyArgumentListInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyDataclassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="list" />
+          <option value="all" />
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyTypeCheckerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="chellange.Month.*" />
+          <option value="inmakes.travelproject.travelproject.urls.travelproject" />
+          <option value="travelproject.settings" />
+          <option value="django.contrib.auth.models.User.*" />
+          <option value="django.contrib.auth.models.User.object" />
+          <option value="travelproject.max.views.message" />
+          <option value="django.contrib.auth.*" />
+          <option value="moviepoject.moviepoject.urls.include" />
+          <option value="moviepoject.movieapp.models.Movie.object" />
+          <option value="moviepoject.movieapp.models.Movie.objects" />
+          <option value="ecommerceproject.urls.settins" />
+          <option value="ecommerceproject.urls.settings" />
+          <option value="ecommerceproject.urls.*" />
+          <option value="shop.admin.ProductAdmin" />
+          <option value="shop.admin.CategoryAdmin" />
+          <option value="ecommerceproject.search_app.views.shop" />
+          <option value="restapp.views.*" />
+          <option value="rest_framework.urls" />
+          <option value="cv2.waitkey" />
+          <option value="cv2.*" />
+          <option value="draw.height" />
+          <option value="cap.get" />
+          <option value="draw.topright" />
+          <option value="pygame" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
